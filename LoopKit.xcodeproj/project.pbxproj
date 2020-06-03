@@ -1949,6 +1949,7 @@
 				430157F41C7EC03B00B64B63 /* Frameworks */,
 				430157F51C7EC03B00B64B63 /* Resources */,
 				4301581D1C7ECB5E00B64B63 /* Embed Frameworks */,
+				470A9D15233DAEED008DA68E /* Remove Sim Archs */,
 			);
 			buildRules = (
 			);
@@ -2374,6 +2375,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		470A9D15233DAEED008DA68E /* Remove Sim Archs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Remove Sim Archs";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/Scripts/remove-sim-archs.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		430157F31C7EC03B00B64B63 /* Sources */ = {
